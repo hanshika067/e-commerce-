@@ -1,0 +1,124 @@
+/* General Cart Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+/* Cart Navbar */
+.cart-navbar {
+  background-color: #232f3e;
+  padding: 15px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Cart Container */
+.cart-container {
+  max-width: 900px;
+  background: white;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+/* Empty Cart Message */
+.empty-cart-msg {
+  font-size: 18px;
+  color: #555;
+}
+
+/* Cart Table */
+.cart-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.cart-table th, .cart-table td {
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+.cart-table th {
+  background: #ff9900;
+  color: white;
+}
+
+.cart-table td img {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Remove Button */
+.remove-btn {
+  background: #ff4d4d;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  background: #cc0000;
+}
+
+/* Total Price */
+.total-price {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 20px;
+  color: #333;
+}
+
+/* Cart Buttons */
+.cart-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+/* 🏠 Go to Home Button */
+.back-home {
+  background: #007bff;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.back-home:hover {
+  background: #0056b3;
+}
+
+/* 🛍️ Checkout Button */
+.checkout-btn {
+  background: #ff9900;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: 0.3s;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.checkout-btn:hover {
+  background: #e68a00;
+}
